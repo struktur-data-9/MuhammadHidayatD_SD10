@@ -17,7 +17,7 @@ j=i;
 for(int k=i+1;k<9;k++)
 {
 bd=strcmp(nama[j],nama[k]);
-if(bd==1) j=k;       
+if(bd==-1) j=k;       
 }
 if(j!=i){
 char temp[1][30]; 
