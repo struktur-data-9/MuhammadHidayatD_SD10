@@ -19,7 +19,7 @@ for(int k=i+1;k<9;k++)
 bd=strcmp(nama[j],nama[k]);
 if(bd==1) j=k;       
 }
-if(j<=i){
+if(j!=i){
 char temp[1][30]; 
 strcpy(temp[0],nama[j]);
 strcpy(nama[j],nama[i]);
