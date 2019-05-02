@@ -48,7 +48,7 @@ strcpy(nama[7],"Ardian");
 strcpy(nama[8],"Adhan");
 int n = sizeof(nama)/sizeof(nama[0]);
 selectionSort(nama);
-printf("Sorted array: \n");
+cout<<"Sorted array: \n"<<endl;
 printArray(nama);
 return 0;
 }
